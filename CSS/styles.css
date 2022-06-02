@@ -1,0 +1,152 @@
+/* TAG SELECTORS */
+body {
+  font-family: "Quicksand", sans-serif;
+  text-align: center;
+  font-weight: bold;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Paytone One", sans-serif;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+a {
+  color: inherit;
+}
+
+/* CLASS SELECTORS */
+/* Containers */
+.container-fluid {
+  padding: 7% 15%;
+  position: relative;
+}
+
+/* Sections - Apply only to section HTML elements!*/
+.colored-section {
+  background-color: #ffbd59;
+  color: #004380;
+}
+
+.white-section {
+  background-color: #fff;
+  color: #004380;
+}
+
+/* Headings */
+/* h1s */
+.big-heading {
+  font-size: 3.5rem;
+}
+
+/* h2s */
+.testimonial-heading, .pricing-heading {
+  font-size: 3rem;
+}
+
+/* h3s */
+.features-heading, .overview-heading, .subpage-heading {
+  font-size: 1.5rem;
+}
+
+/* Navigation Bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Quicksand", sans-serif;
+}
+
+/* Download buttons */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title section */
+#home_title .container-fluid {
+  padding: 3% 15% 7%;
+  text-align: center;
+}
+
+.title_logo {
+  width: 40%;
+}
+
+/* Features */
+#home_features {
+  background-color: #c9e265;
+}
+
+.features-carousel-main {
+  width: 80%;
+  margin: auto;
+}
+
+/* Overview section  */
+
+.overview-box {
+  height: 500px;
+}
+
+.overview-heading {
+  text-align: left;
+}
+
+.overview-text {
+  text-align: left;
+  color: #8f8f8f
+}
+
+.overview-keyword {
+font-size: 1.10rem;
+}
+
+.overview-image {
+  width: 90%;
+  position: relative;
+  bottom: 100px;
+}
+
+@media (max-width: 1180px) {
+.overview-image {
+  position: static;
+}
+}
+
+/* Footer */
+
+@media (max-width: 1180px) {
+  #home_footer {
+    padding: 30% 15% 7%;
+  }
+}
+
+.social-icons {
+  margin: 20px 10px
+}
+
+.Copyright {
+  font-size: 0.75rem;
+  font-weight: lighter;
+}
+
+/* SECONDARY PAGES  */
+
+.navbar-brand {
+  position: relative;
+  left: 100px;
+}
+
+.page-title {
+  text-align: left;
+}
+
+.page-content {
+  text-align: left;
+}
